@@ -1,5 +1,5 @@
 package com.company;
-
+////Task1
 public class Main {
 
     public static void main(String[] args) {
@@ -16,5 +16,14 @@ public class Main {
         }
     }
 }
+///Task2
 
+class Task2 {
+
+    public static void main(String[] args) {
+        for (int i = 4; i < 31; i = i + 7) {
+            System.out.println("Сегодня пятница " + i + "-e число. Необходимо отправить отчет." );
+        }
+    }
+}
 
