@@ -17,7 +17,6 @@ public class Main {
     }
 }
 ///Task2
-
 class Task2 {
 
     public static void main(String[] args) {
@@ -26,4 +25,14 @@ class Task2 {
         }
     }
 }
+////Task3
+class Task3 {
+    public static void main(String[] args) {
+        int currentYear = 2021;
+        for (int i = 1896; i <= 2121; i += 79) {
+            System.out.println(i);
+        }
+    }
+}
+
 
