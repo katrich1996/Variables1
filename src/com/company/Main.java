@@ -29,10 +29,18 @@ class Task2 {
 class Task3 {
     public static void main(String[] args) {
         int currentYear = 2021;
-        for (int i = 1896; i <= 2121; i += 79) {
-            System.out.println(i);
+        int previousYear = currentYear - 200;
+        int nextYear = currentYear + 100;
+        for (; previousYear < currentYear; currentYear--) {
+            if (currentYear % 79 == 0);
+        }
+        for (; currentYear < nextYear; currentYear++) {
+            if (currentYear % 79 == 0)
+                    System.out.println(currentYear);
+            }
         }
     }
-}
+
+
 
 
